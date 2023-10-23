@@ -1,0 +1,101 @@
+.navbar{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 205%;
+    margin-top:-10px;
+    padding-bottom:50px;
+    margin-left: 0px;
+   background:black;
+    }
+    .navbar header {
+                font-size: 22px;
+                color: white;
+                margin-top: -10px;
+                text-align: center;
+                line-height: 60px;
+                background:black;
+                user-select: none;
+                
+                }
+                .navbar ul li {
+                display:block;
+                height: 100%;
+                width: 100%;
+                line-height: 40px;
+                font-size: 10px;
+                color:white;
+                box-sizing:content-box;
+                border-top:5px solid rgb(200,200,200,);
+                border-bottom: 2px solide white;
+                margin-left:-20px; 
+                cursor: pointer;
+                }
+                .navbar button {
+                    background-color: black;
+                    color: aliceblue;
+                    box-sizing:calc();
+                }
+                .draggable {
+                   
+                    background-color:black;
+                    color: #fff;
+                    cursor: pointer;
+                    position: absolute;
+                }
+                #publish-button
+                {
+                    display: block;
+                    margin-left: 1190px;
+                    margin-top: -30px;
+                    background-color:aquamarine;
+                    border-color:aquamarine;
+                    width: 100px;
+                    height: 30px;
+                }
+                #preview-button
+                {
+                    display:block;
+                    margin-left: 1080px;
+                    margin-top:-40px;
+                    background-color:white;
+                    color: black;
+                    width: 100px;
+                    border-color:aquamarine;
+                    height: 30px;
+                }
+              #clear{
+                display:block;
+                margin-left: 1190px;
+                margin-top: 150px;
+                background-color:white;
+                color: black;
+                width: 100px;
+                border-color:aquamarine;
+                height: 30px;
+                margin-bottom: -24px;
+              }
+              #save
+              {
+                display:inline-block;
+                margin-left: 1080px;
+                margin-top: -15px;
+                background-color:aquamarine;
+                color: black;
+                width: 100px;
+                border-color:aquamarine;
+                height: 30px;
+
+              }
+              .box {
+                  width: 800px;
+                  height:450px;
+                  background-color:white;
+                  display: inline-block;
+                  align-items: center;
+                  
+                  border:1px solid black;
+                  margin-top: 10px;
+                  margin-left: 200px;
+                  margin-bottom: -20px;
+                  }
